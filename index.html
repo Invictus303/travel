@@ -10,12 +10,18 @@
     <header>
         
         <div class="container">
+        <!-- Hamburger Icon -->
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon (3 horizontal lines) -->
+        </div>
+
             <div class="name-div">
                 <h1>UNLIM Nirvana</h1>
                 <p>Don't choose us choose Happiness</p>
             </div>
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <ul>
+                    <li class="hamburger" onclick="toggleMenu()">&#9776;</li>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
@@ -56,6 +62,6 @@
         <!-- </div> -->
     </div>
     
-    
+    <script src="project1.js"></script>
 </body>
 </html>
