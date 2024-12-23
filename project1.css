@@ -212,15 +212,24 @@ nav a:hover{
     nav li{
         /* border: 1px solid black; */
         margin: .2rem auto;
-        background-color: #b7d6ea;
+        /* background-color: #104e76; */
         width: 90%;
+        height: 2rem;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         
         
     }
     nav a{
         /* border: 1px solid black; */
-        padding:0 2rem;
-        border-radius: 0;
+        background-color: #3f87b7;
+        text-align: center;
+        border-radius: 10%;
+        margin: 0 ;
+        height: 100%;
         width: 100%;
     }
 
